@@ -9,15 +9,15 @@ import { Gradient } from "./design/Roadmap";
 const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
     <div className="container md:pb-10">
-      <Heading tag="Ready to get started" title="Choose Your File Format" />
+      <Heading tag="Ready to get started" title="What we’re working on" />
 
-      <div className="relative grid gap-2 md:grid-cols-2 md:gap-4 md:pb-[1rem]">
+      <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
           const status = item.status === "done" ? "Done" : "In progress";
 
           return (
             <div
-              className={`md:flex even:md:translate-y-[4rem] p-0.25 rounded-[2.5rem] ${
+              className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
                 item.colorful ? "bg-conic-gradient" : "bg-n-6"
               }`}
               key={item.id}

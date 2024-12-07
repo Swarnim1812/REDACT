@@ -37,7 +37,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-          {/* <img src={brainwave} width={190} height={40} alt="Brainwave" /> */}PSEDOKO
+          <img src={brainwave} width={190} height={40} alt="Brainwave" />
         </a>
 
         <nav
@@ -67,11 +67,14 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <a href="#signup" className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block">
-          lets go...
+        <a
+          href="#signup"
+          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
+        >
+          New account
         </a>
         <Button className="hidden lg:flex" href="#login">
-            REDACT
+          Sign in
         </Button>
 
         <Button

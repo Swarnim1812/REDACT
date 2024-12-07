@@ -74,22 +74,17 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
-
-
-import anony from "./anony.png";
-import imgg1 from "./imgg1.jpg";
-import blue_sp from "./blue_sp.png";
-import tech from "./tech.gif";
-import giphy from "./giphy.gif";
-import giphy2 from "./giphy2.gif";
-
+import privacy from "./privacy.jpg"
+import adhar from "./adhar.jpeg"
+import scale from "./scale.jpeg"
+import context from "./context.jpg"
+import scalability from "./scalability.png"
 export {
-  giphy2,
-  giphy,
-  tech,
-  blue_sp,
-  imgg1,
-  anony,
+  privacy,
+  adhar,
+  scale,
+  context,
+  scalability,
   brainwave,
   check,
   check2,
